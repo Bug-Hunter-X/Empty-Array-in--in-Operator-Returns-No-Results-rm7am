@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon MongoDB query issue. Using the `$in` operator with an empty array results in an empty result set, rather than returning all documents as one might expect. The solution involves checking for an empty array and adjusting the query accordingly.
